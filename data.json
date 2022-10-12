@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    [
+      5,
+      6,
+      "Park CAR-10",
+      "Park CAR-20",
+      "Park CAR-30",
+      "GetSlots",
+      "Remove CAR-20",
+      "GetSlots"
+    ], [
+      2,
+      4,
+      "Park CAR-10",
+      "GetSlots",
+      "Remove CAR-10",
+      "GetSlots"
+    ]
+  ]
+}

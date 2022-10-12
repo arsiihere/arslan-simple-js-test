@@ -1,0 +1,48 @@
+Case 1:
+
+Input:
+5
+6
+Park CAR-10
+Park CAR-20
+Park CAR-30
+GetSlots
+Remove CAR-20
+GetSlots
+
+Output:
+Parking Lot created with number of slots as 5
+Parking Started: CAR-10
+Parking Started: CAR-20
+Parking Started: CAR-30
+Parked at slot 1: CAR-10
+Parked at slot 2: CAR-20
+Parked at slot 3: CAR-30
+Slot 4 is empty
+Slot 5 is empty
+Car id CAR-20 removed from parking
+Parked at slot 1: CAR-10
+Slot 2 is empty
+Parked at slot 3: CAR-30
+Slot 4 is empty
+Slot 5 is empty
+
+----------------------------------------------
+Case 2:
+
+Input:
+2
+4
+Park CAR-10
+GetSlots
+Remove CAR-10
+GetSlots
+
+Output:
+Parking Lot created with number of slots as 2
+Parking Started: CAR-10
+Parked at slot 1: CAR-10
+Slot 2 is empty
+Car id CAR-10 removed from parking
+Slot 1 is empty
+Slot 2 is empty
